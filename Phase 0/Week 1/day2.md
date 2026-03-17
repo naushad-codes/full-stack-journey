@@ -300,14 +300,6 @@ Why does the CPU check cache before RAM?
 What are the three stages of the instruction cycle?
 
 ---
-extra resources:
-Read these articles:
-
-CPU Organization
-https://www.geeksforgeeks.org/computer-organization-architecture/cpu-organization/
-
-Memory Hierarchy
-https://www.geeksforgeeks.org/computer-organization-architecture/memory-hierarchy-design-and-its-characteristics/
 
 ---
 NEXT TOPICS (DAY 3)

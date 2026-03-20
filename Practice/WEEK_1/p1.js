@@ -116,6 +116,13 @@ console.log(arr);
 // Call the function
 // Print obj.value
 
+const obj = {value:10};
+function modify(o){
+  o.value = 20;
+}
+modify(obj);
+console.log(obj.value);
+
 // Expected: value SHOULD change
 
 
@@ -126,7 +133,6 @@ console.log(arr);
 // Write a function that reassigns obj = { value: 50 }
 // Call function
 // Print obj.value
-
 // Expected: value should NOT change
 
 
@@ -140,7 +146,10 @@ console.log(arr);
 
 // Expected: original should NOT change
 
-
+const user = {name:"naushad"};
+const user4 = {...user};
+user4.name = "nasuahd ali ";
+console.log(user4.name);
 // -----------------------------
 
 // Q7: Debug the Bug

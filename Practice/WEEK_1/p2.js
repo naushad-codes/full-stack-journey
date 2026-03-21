@@ -27,3 +27,5 @@ Explain inner + outer behavior
 
 ## Q10 Explanation:
 Why error occurs (TDZ)
+
+//this is day 2 and i will continue from tommorow onwards

@@ -1,0 +1,40 @@
+<!-- today i will be learning the javascript display possibilities. 
+    this is the first one using innertext and innerhtml
+    -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript display possibilities</title>
+</head>
+<body>
+    <h1 id="main-heading">Hello User</h1>
+    <br>
+    <button id="main-btn">Reveal Name</button>
+
+
+
+
+
+    <script>
+        let flag = 0;
+        const btn = document.getElementById("main-btn");
+        btn.addEventListener("click",function(){
+            if(flag===0){
+                document.getElementById("main-heading").innerText="Hello naushad";
+                document.getElementById("main-heading").style.color="red";
+                btn.innerText="hide name";
+                flag = 1;
+
+            }else{
+                document.getElementById("main-heading").innerHTML="hello user"
+                document.getElementById("main-heading").style.color="black";
+                btn.innerText="reveal name";
+                flag = 0;
+            }
+        });
+    </script>
+</body>
+</html>

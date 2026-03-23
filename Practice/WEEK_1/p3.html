@@ -1,6 +1,4 @@
-<!-- today i will be learning the javascript display possibilities. 
-    this is the first one using innertext and innerhtml
-    -->
+<!-- today i will be learning the javascript display possibilities.-->
  
 <!DOCTYPE html>
 <html lang="en">
@@ -14,11 +12,17 @@
     <br>
     <button id="main-btn">Reveal Name</button>
 
+    <br>
+    <button id="show-date">Clean and show date</button>
+    <br>
+    <button id="print">save page</button>
+
 
 
 
 
     <script>
+        window.alert("Click the button to hide/reveal the name");
         let flag = 0;
         const btn = document.getElementById("main-btn");
         btn.addEventListener("click",function(){
@@ -35,6 +39,15 @@
                 flag = 0;
             }
         });
+        let date = document.getElementById("show-date");
+        date.addEventListener("click",function(){
+            document.write("hello today is 23th march");
+        });
+        let print= document.getElementById("print");
+        print.addEventListener("click",function(){
+            window.print();
+        })
+
     </script>
 </body>
 </html>

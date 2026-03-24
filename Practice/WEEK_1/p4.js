@@ -1,0 +1,1 @@
+// i have studied the javascript variables. making using let , const and var 
